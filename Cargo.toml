@@ -10,6 +10,6 @@ repository = "https://github.com/lst1000/uk-tax"
 homepage = "https://github.com/lst1000/uk-tax"
 documentation = "https://docs.rs/uk-tax"
 keywords = ["tax", "UK", "PAYE", "national-insurance", "finance"]
-categories = ["finance", "tax", "utility"]
+categories = ["finance"]
 
 [dependencies]
