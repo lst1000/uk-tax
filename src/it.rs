@@ -31,7 +31,7 @@ pub fn income_tax(
         return Err("A personal allowance must be specified for incomes greater than £100,000.");
     }
 
-    let p_allowance = personal_allowance.unwrap_or(year.personal_allowance * 100);
+    let p_allowance = personal_allowance.unwrap_or(year.personal_allowance) * 100;
 
     let gross_income_pence = (gross_income * 100.0).round() as u32;
     let allowance = p_allowance;
