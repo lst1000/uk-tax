@@ -10,7 +10,7 @@ Supports historical tax years (2011/12 to 2025/26) and allows custom personal al
 - Calculate annual Class 1 employee NI (`national_insurance`)
 - Tax year constants from 2011/12 to 2025/26
 - Flexible personal allowance support
-- MIT licensed
+- MIT licenced
 
 ## Installation
 
@@ -18,7 +18,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-uk-tax = "0.1.0"
+uk-tax = "0.1.2"
 ```
 
 ## Usage
@@ -48,9 +48,9 @@ Planned or potential improvements:
 - Add support for Scottish and Welsh income tax bands
 - Add other NI classes (e.g., Class 2, Class 4)
 
-## License
+## Licence
 
-MIT License.  
+MIT Licence.  
 See [LICENSE](LICENSE) for details.
 
 ## Contributing
