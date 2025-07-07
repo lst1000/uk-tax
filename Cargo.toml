@@ -1,6 +1,6 @@
 [package]
 name = "uk-tax"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["Laurence Stock-Tully"]
 description = "A Rust library that calculates UK PAYE Income Tax and Class 1 National Insurance contributions with historical tax year support."
